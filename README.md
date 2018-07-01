@@ -1,2 +1,2 @@
 # Todoist
-record things you've to do
+node index.js
