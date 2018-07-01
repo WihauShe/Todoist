@@ -1,0 +1,16 @@
+{
+  "name":"Todoist",
+  "description":"代办事项清单系统",
+  "main":"app.js",
+  "scripts":{
+    "test":"echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author":"WihauShe",
+  "license": "MIT",
+  "dependencies":{
+    "bootstrap":"^3.3.6",
+    "formidable":"^1.0.17",
+    "underscore":"^1.8.3"
+  }
+}

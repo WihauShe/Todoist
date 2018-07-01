@@ -1,0 +1,101 @@
+
+body{
+  margin:0 auto;
+  background-image: url('../img/demo-1-bg.jpg');
+}
+.container-fluid{
+  margin-top:60px;
+  height: 600px;
+  width: 1030px;
+}
+#navigation{
+  float: left;
+  border:0;
+  width: 200px;
+  height: 600px;
+}
+#user_name{
+  font-size: 20px;
+  font-style:oblique;
+  color: rgba(22, 247, 57, 0.81);
+}
+ul{
+  padding: 0;
+}
+li{
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+}
+.user{
+  width: 25px;
+	height: 25px;
+	background: url(../img/login_ico.png);
+	background-position:  -125px 0;
+	position: absolute;
+	margin: 5px 10px 10px;
+}
+#list{
+  float: left;
+  border: 0;
+  width:  800px;
+  height: 600px;
+}
+
+#newItemButton{
+	padding:10px 10px 0px 0px;
+}
+.addPlus{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+#listDescription{
+  float: left;
+	background-color:#C9C9C9;
+	border:1px solid #C9C9C9;
+	width:70%;
+	font-size:120%;
+	border-radius:5px;
+	padding:3px;
+}
+input[type='text']:focus{
+	background-color:#FFFFFF;
+	border:1px solid #FFFFFF;
+}
+#add{
+  float: left;
+  margin-left: 5px;
+}
+#newTask{
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+#addTask{
+  display: block;
+  position:absolute;
+  border:1px solid #C9C9C9;
+  border-radius:5px;
+  background-color: #FFFFFF;
+  height:200px;
+  width:400px;
+  margin-left: 400px;
+  margin-top: 150px;
+}
+#delList{
+    width: 100px;
+    height: 30px;
+    background-color: #01AAED;
+    color: white;
+    display: none;
+    z-index: 100;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+}
+#delList:hover{
+    background-color: white;
+    color: black;
+}
